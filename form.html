@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+ </head>
+<body>
+    <h1 style="color: white;">ABC Academy</h1>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+
+    <h2>Form Page</h2>
+    <form action="">
+        <label for="name" class="name">Name:</label>
+        <input type="text" name="" id="name" placeholder="Enter You Name Here">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" placeholder="Enter Your Email Address">
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="" id="phone" pattern="[0-9]{11}" placeholder="03123456789" title="Invalid Format">
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" min="2008-12-31" max="2013-01-01">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="13" max="18">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="Female">
+        <label for="Female">Female</label>
+        <br><br>
+        <label for="class">Select Your Class</label>
+        <input type="radio" name="class" id="IX">
+        <label for="IX">IX</label>
+        <input type="radio" name="class" id="X">
+        <label for="X">X</label>
+        <input type="radio" name="class" id="XI">
+        <label for="XI">XI</label>
+        <input type="radio" name="class" id="XII">
+        <label for="XII">XII</label>
+        <br><br>
+        <label for="course">Select Your Course</label>
+        <select name="course" id="course">
+            <option value="">Computer Science</option>
+            <option value="">Medical</option>
+            <option value="">Commerece</option>
+            <option value="">Arts</option>
+            <option value="">Others</option>
+        </select>
+        <br><br>
+        <label for="days">Prefered Days</label>
+        <input type="checkbox" name="days" id="Monday">
+        <label for="Monday">Monday</label>
+        <input type="checkbox" name="days" id="Tuesday">
+        <label for="Tuesday">Tuesday</label>
+        <input type="checkbox" name="days" id="Wednesday">
+        <label for="Wednesday">Wednesday</label>
+        <input type="checkbox" name="days" id="Thursday">
+        <label for="Thursday">Thursday</label>
+        <input type="checkbox" name="days" id="Friday">
+        <label for="Friday">Friday</label>
+        <input type="checkbox" name="days" id="Saturday">
+        <label for="Saturday">Saturday</label>
+        <br><br>
+        <label for="time">Select Prefered Time</label>
+        <input type="time" name="time" id="time" min="16:00" max="21:00">
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+    </form>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28951.343298573527!2d67.15307127445317!3d24.900781503450904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339c72ec76665%3A0xec5d1d821453c988!2sJinnah%20International%20Airport!5e0!3m2!1sen!2s!4v1735286663921!5m2!1sen!2s" width="300" height="250" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

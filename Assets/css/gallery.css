@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005e99;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar .logo a
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links a
+{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-links a.active
+{
+    background-color: #004080;
+    border-radius: 5px;
+}
+.nav-links a:hover
+{
+    background-color: #003366;
+    color: #e0e0e0;
+}
+.main-content
+{
+    padding: 120px 20px 20px;
+    text-align: center;
+}
+.main-content h1
+{
+    font-size: 36px;
+    color: #005e99;
+    margin-bottom: 20px;
+}
+.gallery-container
+{
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.slideshow
+{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide
+{
+    min-width: 100%;
+    overflow: hidden;
+}
+.slide img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+footer
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

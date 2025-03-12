@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005e99;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar .logo a
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links a
+{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-links a.active
+{
+    background-color: #004080;
+    border-radius: 5px;
+}
+.nav-links a:hover
+{
+    background-color: #003366;
+    color: #e0e0e0;
+}
+.main-content
+{
+    padding: 120px 20px 20px;
+    text-align: center;
+}
+.main-content h1
+{
+    font-size: 36px;
+    color: #005e99;
+    margin-bottom: 20px;
+}
+.life-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.life-box
+{
+    width: 300px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.life-box:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.life-box img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+.life-box .text
+{
+    padding: 15px;
+    text-align: left;
+}
+.life-box h2 {
+    font-size: 18px;
+    color: #005e99;
+    margin-bottom: 10px;
+}
+.life-box p
+{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+.life-box .read-more
+{
+    display: inline;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #005e99;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.life-box .read-more:hover
+{
+    color: #003366;
+}
+footer
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
