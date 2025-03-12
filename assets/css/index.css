@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005e99;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar .logo a
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links a
+{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-links a:hover
+{
+    background-color: #004080;
+    color: #e0e0e0;
+}
+
+.main-content
+{
+    padding: 120px 20px 20px;
+    text-align: center;
+}
+.data-section table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.data-section table:hover
+{
+    transform: scale(1.02);
+}
+
+.data-section th, td
+{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.data-section th
+{
+    background-color: #005e99;
+    color: white;
+}
+
+.data-section tr:hover
+{
+    background-color: #e6f7ff;
+}
+.glimpse-section
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.glimpse-box
+{
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.glimpse-box:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+footer
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
